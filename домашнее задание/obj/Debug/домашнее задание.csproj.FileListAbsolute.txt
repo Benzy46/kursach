@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Debug\домашнее задание.exe.config
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Debug\домашнее задание.exe
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Debug\домашнее задание.pdb
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее задание.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее_задание.Form1.resources
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее_задание.Properties.Resources.resources
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее задание.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее задание.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее задание.exe
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее задание.pdb
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Debug\домашнее_задание.Form2.resources

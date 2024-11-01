@@ -1,0 +1,22 @@
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Release\домашнее задание.exe.config
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Release\домашнее задание.exe
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\bin\Release\домашнее задание.pdb
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Form1.resources
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Form2.resources
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Properties.Resources.resources
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее задание.exe
+C:\Users\PC\source\repos\домашнее задание\домашнее задание\obj\Release\домашнее задание.pdb
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\bin\Release\домашнее задание.exe.config
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\bin\Release\домашнее задание.exe
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\bin\Release\домашнее задание.pdb
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.AssemblyReference.cache
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Form1.resources
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Form2.resources
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее_задание.Properties.Resources.resources
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.GenerateResource.cache
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее задание.csproj.CoreCompileInputs.cache
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее задание.exe
+C:\Users\vlad-PC\Desktop\домашнее задание\домашнее задание\obj\Release\домашнее задание.pdb
