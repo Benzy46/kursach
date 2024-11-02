@@ -30,17 +30,16 @@ namespace домашнее_задание
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ButtonCreateDocument = new System.Windows.Forms.Button();
+            this.TextBoxGeneral = new System.Windows.Forms.TextBox();
+            this.ButtonMoveTextToWindow = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.ButtonEncryptText = new System.Windows.Forms.Button();
+            this.ButtonMoveTextToFile = new System.Windows.Forms.Button();
+            this.ButtonDemoDecrypt = new System.Windows.Forms.Button();
+            this.TextBoxDemoStart = new System.Windows.Forms.TextBox();
+            this.TextBoxDemoFinish = new System.Windows.Forms.TextBox();
+            this.ButtonDecryptText = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,33 +54,33 @@ namespace домашнее_задание
             this.label1.TabIndex = 0;
             this.label1.Text = "Курсовая работа Владюши Овсянникова =)";
             // 
-            // button1
+            // ButtonCreateDocument
             // 
-            this.button1.Location = new System.Drawing.Point(12, 168);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(243, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Создать текстовый документ/очисить";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ButtonCreateDocument.Location = new System.Drawing.Point(12, 168);
+            this.ButtonCreateDocument.Name = "ButtonCreateDocument";
+            this.ButtonCreateDocument.Size = new System.Drawing.Size(243, 23);
+            this.ButtonCreateDocument.TabIndex = 1;
+            this.ButtonCreateDocument.Text = "Выбрать/Создать текстовый документ";
+            this.ButtonCreateDocument.UseVisualStyleBackColor = true;
+            this.ButtonCreateDocument.Click += new System.EventHandler(this.ButtonCreateDocumentClick);
             // 
-            // textBox1
+            // TextBoxGeneral
             // 
-            this.textBox1.Location = new System.Drawing.Point(429, 103);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(362, 200);
-            this.textBox1.TabIndex = 2;
+            this.TextBoxGeneral.Location = new System.Drawing.Point(429, 103);
+            this.TextBoxGeneral.Multiline = true;
+            this.TextBoxGeneral.Name = "TextBoxGeneral";
+            this.TextBoxGeneral.Size = new System.Drawing.Size(362, 200);
+            this.TextBoxGeneral.TabIndex = 2;
             // 
-            // button2
+            // ButtonMoveTextToWindow
             // 
-            this.button2.Location = new System.Drawing.Point(12, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(243, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Перенести текст из документа в окошко";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.ButtonMoveTextToWindow.Location = new System.Drawing.Point(12, 197);
+            this.ButtonMoveTextToWindow.Name = "ButtonMoveTextToWindow";
+            this.ButtonMoveTextToWindow.Size = new System.Drawing.Size(243, 23);
+            this.ButtonMoveTextToWindow.TabIndex = 3;
+            this.ButtonMoveTextToWindow.Text = "Перенести текст из документа в окно";
+            this.ButtonMoveTextToWindow.UseVisualStyleBackColor = true;
+            this.ButtonMoveTextToWindow.Click += new System.EventHandler(this.ButtonMoveTextToWindowClick);
             // 
             // label2
             // 
@@ -92,70 +91,61 @@ namespace домашнее_задание
             this.label2.TabIndex = 4;
             this.label2.Text = "Создаёт на рабочем столе текстовый документ с файлом \"Курсовая работа.txt\"";
             // 
-            // button3
+            // ButtonEncryptText
             // 
-            this.button3.Location = new System.Drawing.Point(13, 226);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(242, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Зашифровать текст из документа";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.ButtonEncryptText.Location = new System.Drawing.Point(13, 226);
+            this.ButtonEncryptText.Name = "ButtonEncryptText";
+            this.ButtonEncryptText.Size = new System.Drawing.Size(242, 23);
+            this.ButtonEncryptText.TabIndex = 5;
+            this.ButtonEncryptText.Text = "Зашифровать текст";
+            this.ButtonEncryptText.UseVisualStyleBackColor = true;
+            this.ButtonEncryptText.Click += new System.EventHandler(this.ButtonEncryptTextClick);
             // 
-            // button4
+            // ButtonMoveTextToFile
             // 
-            this.button4.Location = new System.Drawing.Point(12, 284);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(243, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Перенести зашифрованный текст в файл";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.ButtonMoveTextToFile.Location = new System.Drawing.Point(12, 284);
+            this.ButtonMoveTextToFile.Name = "ButtonMoveTextToFile";
+            this.ButtonMoveTextToFile.Size = new System.Drawing.Size(243, 23);
+            this.ButtonMoveTextToFile.TabIndex = 6;
+            this.ButtonMoveTextToFile.Text = "Перенести текст из окна в файл";
+            this.ButtonMoveTextToFile.UseVisualStyleBackColor = true;
+            this.ButtonMoveTextToFile.Click += new System.EventHandler(this.ButtonMoveTextToFileClick);
             // 
-            // button5
+            // ButtonDemoDecrypt
             // 
-            this.button5.Location = new System.Drawing.Point(651, 508);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(128, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Перевести";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.ButtonDemoDecrypt.Location = new System.Drawing.Point(651, 508);
+            this.ButtonDemoDecrypt.Name = "ButtonDemoDecrypt";
+            this.ButtonDemoDecrypt.Size = new System.Drawing.Size(128, 23);
+            this.ButtonDemoDecrypt.TabIndex = 7;
+            this.ButtonDemoDecrypt.Text = "Перевести";
+            this.ButtonDemoDecrypt.UseVisualStyleBackColor = true;
+            this.ButtonDemoDecrypt.Click += new System.EventHandler(this.ButtonDemoDecryptCkick);
             // 
-            // textBox2
+            // TextBoxDemoStart
             // 
-            this.textBox2.Location = new System.Drawing.Point(554, 432);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(142, 50);
-            this.textBox2.TabIndex = 8;
+            this.TextBoxDemoStart.Location = new System.Drawing.Point(554, 432);
+            this.TextBoxDemoStart.Multiline = true;
+            this.TextBoxDemoStart.Name = "TextBoxDemoStart";
+            this.TextBoxDemoStart.Size = new System.Drawing.Size(142, 50);
+            this.TextBoxDemoStart.TabIndex = 8;
             // 
-            // textBox3
+            // TextBoxDemoFinish
             // 
-            this.textBox3.Location = new System.Drawing.Point(729, 432);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(162, 50);
-            this.textBox3.TabIndex = 9;
+            this.TextBoxDemoFinish.Location = new System.Drawing.Point(729, 432);
+            this.TextBoxDemoFinish.Multiline = true;
+            this.TextBoxDemoFinish.Name = "TextBoxDemoFinish";
+            this.TextBoxDemoFinish.Size = new System.Drawing.Size(162, 50);
+            this.TextBoxDemoFinish.TabIndex = 9;
             // 
-            // button6
+            // ButtonDecryptText
             // 
-            this.button6.Location = new System.Drawing.Point(12, 255);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(243, 23);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Дешифровать текст из документа";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(13, 313);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(243, 23);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "Перенести дешифрованный текст в файл";
-            this.button7.UseVisualStyleBackColor = true;
+            this.ButtonDecryptText.Location = new System.Drawing.Point(12, 255);
+            this.ButtonDecryptText.Name = "ButtonDecryptText";
+            this.ButtonDecryptText.Size = new System.Drawing.Size(243, 23);
+            this.ButtonDecryptText.TabIndex = 10;
+            this.ButtonDecryptText.Text = "Дешифровать текст";
+            this.ButtonDecryptText.UseVisualStyleBackColor = true;
+            this.ButtonDecryptText.Click += new System.EventHandler(this.ButtonDecryptTextClick);
             // 
             // Form1
             // 
@@ -163,17 +153,16 @@ namespace домашнее_задание
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1262, 543);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ButtonDecryptText);
+            this.Controls.Add(this.TextBoxDemoFinish);
+            this.Controls.Add(this.TextBoxDemoStart);
+            this.Controls.Add(this.ButtonDemoDecrypt);
+            this.Controls.Add(this.ButtonMoveTextToFile);
+            this.Controls.Add(this.ButtonEncryptText);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ButtonMoveTextToWindow);
+            this.Controls.Add(this.TextBoxGeneral);
+            this.Controls.Add(this.ButtonCreateDocument);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -185,17 +174,16 @@ namespace домашнее_задание
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ButtonCreateDocument;
+        private System.Windows.Forms.TextBox TextBoxGeneral;
+        private System.Windows.Forms.Button ButtonMoveTextToWindow;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button ButtonEncryptText;
+        private System.Windows.Forms.Button ButtonMoveTextToFile;
+        private System.Windows.Forms.Button ButtonDemoDecrypt;
+        private System.Windows.Forms.TextBox TextBoxDemoStart;
+        private System.Windows.Forms.TextBox TextBoxDemoFinish;
+        private System.Windows.Forms.Button ButtonDecryptText;
     }
 }
 
